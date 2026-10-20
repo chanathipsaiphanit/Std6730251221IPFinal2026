@@ -30,13 +30,13 @@ const pool = mysql.createPool({
 });
 
 // Table + column naming convention
-const TABLE = 'NinSom_Employee';
+const TABLE = 'ChanathipSai_Employee';
 const COL = {
-  id: 'NinSom_ID_Employee',
-  name: 'NinSom_Name_Employee',
-  position: 'NinSom_Position_Employee',
-  status: 'NinSom_Status_Employee',
-  salary: 'NinSom_Salary_Employee',
+  id: 'ChanathipSai_ID_Employee',
+  name: 'ChanathipSai_Name_Employee',
+  position: 'ChanathipSai_Position_Employee',
+  status: 'ChanathipSai_Status_Employee',
+  salary: 'ChanathipSai_Salary_Employee',
 };
 const q = (n) => '`' + n + '`';
 const T = q(TABLE);
