@@ -1,0 +1,16 @@
+{
+  "name": "hr-backend",
+  "version": "1.0.0",
+  "description": "HR Manager & Salary Analytics API (Express.js + MySQL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node kmeans.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.0"
+  }
+}
